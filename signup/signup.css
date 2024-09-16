@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    /* header section */
+    body{
+        background-image: url(/Hw-W4-D2/login/image-login/bacground-login.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .navbar{
+        /* background-color: rgba(255, 255, 255, 0.3)!important; */
+    }
+    .navbar img{
+        filter: brightness(0)invert(1);
+    }
+    .navbar a{
+        filter: brightness(0)invert(1);
+    }
+    /* header section end */
+    /* main */
+    .card h3{
+    background-color: #4e51a2;
+    border-color: #4e51a2;
+    
+     
+    }
+    /* .card {
+        border-radius: 7rem;
+        
+        /* box-shadow: 7px white; */
+    
+    
+     
+    input{
+        border-radius: 0.2rem;
+        
+    }
+    /* end main */

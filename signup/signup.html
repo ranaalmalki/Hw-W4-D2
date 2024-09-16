@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login page </title>
-    <link rel="stylesheet" href="login.css">
+    <title>Sign up page </title>
+    <link rel="stylesheet" href="signup.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
@@ -37,21 +37,30 @@
         </header>
         <main class="container">
                 <div class="card m-5 w-50 shadwo rounded">
-                    <h3 >Log In to Your Account</h3>
+                    <h3 >Create An Account</h3>
                     <div class="card-body   w-50">
                         <form class="col" >
                             <div class="col row">
-                        <label >Email:</label>
-                        <input type="email" id="Email" placeholder="Email" required>
+                                <label for="Email">UserName:</label>
+                                <input type="text" id="user-name" placeholder="username" minlength="5" required>
+                            </div>
+                            <div class="col row">
+                        <label for="Email">Email:</label>
+                        <input type="email" id="Email" placeholder="Rana@example.com" pattern=".+@example\.com" required>
                     </div>
                     <div class="col row">
-                        <label>Password:</label>
-                        <input type="password" id="password" placeholder="password" required> 
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" placeholder="password" minlength="8" required> 
+                    </div>
+                    <div class="col row">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" placeholder="first name" required> 
                     </div>
                     <br>
-                        <button class="btn btn-outline-dark " type="submit" id="submit-login">LogIn</button>
+                        <button class="btn btn-outline-dark " type="submit" id="submit-signup">SignUp</button>
                     </form>
-                   <a href="/Hw-W4-D2/signup/signup.html"> <button class="btn btn-outline-dark" type="button" id="submit-login" >SignUp</button></a>
+                    <p>if you have account go back :</p>
+                    <a href="/Hw-W4-D2/login/login.html"> <button class="btn btn-outline-dark" type="button" id="submit-login" >LogIn</button></a>
 
                     </div>
                     <img height="300"width="350" src="/Hw-W4-D2/login/image-login/vecteezy_cloud-computing-modern-flat-concept-for-web-banner-design_5879539.jpg">
