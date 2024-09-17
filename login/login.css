@@ -29,10 +29,17 @@ border-color: #4e51a2;
 
  
 }
-/* .card {
-    border-radius: 7rem;
-    
-    /* box-shadow: 7px white; */
+.card h3{
+    color: white;        
+        }    
+        .card img{
+width: 100%;                }    
+                
+/* .card{
+    display: grid !important;
+    grid-template-columns: auto auto auto;
+    height: 50vh;
+} */
 
 
  

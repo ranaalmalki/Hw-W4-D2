@@ -29,13 +29,13 @@
     
      
     }
-    /* .card {
-        border-radius: 7rem;
-        
-        /* box-shadow: 7px white; */
+
     
+    .card h3{
+color: white;        
+    }    
     
-     
+  
     input{
         border-radius: 0.2rem;
         
